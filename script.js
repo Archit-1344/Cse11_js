@@ -74,3 +74,4 @@ function myFunction(){
 function say(name,age){
     document.write(name+"is"+age+"years old");
 }
+console.log("hello");
