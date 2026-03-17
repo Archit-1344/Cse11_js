@@ -1,5 +1,6 @@
 const result = document.getElementById("para");
 result.innerHTML = "Hello world";
+result.title = "AS" ;
 console.log(result);
 const r = document.getElementsByClassName("my");
 r[0].innerHTML = "Hello1";
@@ -12,9 +13,9 @@ x[1].style.color = "blue";
 x[2].style.fontWeight = "bold";
 console.log(x);
 const y = document.querySelectorAll("ul li");
-for (let x of y){
-    x.style.backgroundcolor = "green";
-    x.style.margin = "10px";
-    x.style.color = "blue";
+for (let i in y ) {
+    y[i].style.backgroundColor = "blue";
+    y[i].style.margin = "10px";
+    y[i].style.color = "green";
 }
 console.log(y);
